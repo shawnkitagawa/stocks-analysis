@@ -7,6 +7,7 @@ The purpose fo ths analysis to have a deep understanding of the returns for 11 s
 <img src="https://github.com/shawnkitagawa/stocks-analysis/blob/main/data%20stocks%201.png"/>   (All Stocks 2018)
 -----------------------------------------------------------
 <img src="https://github.com/shawnkitagawa/stocks-analysis/blob/main/data%202.png" />    (All Stocks 2017)
+-------------------------------------------------------------------------------------
 
 When looking at the tables of 2018 and 2017 of 11 selected stocks, it clearly shows that 2017 has overall high return compare to 2018.
 
@@ -15,6 +16,7 @@ When looking at the tables of 2018 and 2017 of 11 selected stocks, it clearly sh
 <img src="https://github.com/shawnkitagawa/stocks-analysis/blob/main/nested%20for%20loop.png"/>   (original script)
 -------------------------------------------------------------------------------------
 <img src="https://github.com/shawnkitagawa/stocks-analysis/blob/main/two%20for%20loops.png"/>   (refactored script)
+-------------------------------------------------------------------------------------
 
 The execution time are totally different when comparing the original script and the refactored script. The original version had an average of 0.9 seconds of run time. On the other hand, the refactor version had an average of 0.18 seconds of runtime. This tells that the refactor version is about 5 times faster than the original script. It is because the refactor script use efficient logic. The original script uses a nested for loop to gather data but the refactored script uses two loops to gather data and also an index value to direct in each list. 
 
